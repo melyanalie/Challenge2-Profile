@@ -51,34 +51,43 @@ p {padding-left: 1.5%;
     color: darkorchid;
 
 }
-   
 nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
 }
-  
-nav a {
-    color: thistle;
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: thistle;
     font-weight: bold;
     text-decoration: none;
 }
+nav ul li a:hover {
+  color: coral;
+  text-decoration: underline;
   
-nav a:hover {
-    color: mediumorchid;
 }
-   
+main {
+  padding: 20px;
+}  
+
 img {
     display: block;
     height: 170px;
     width: 170px;
+    margin-bottom: -30px;
     margin-top: 30px;
     margin-left: 20px;
     margin-right: auto;
 }
-   
+
 .card header {
-    padding: 20px;
+    padding: 10px;
   }
   
 .card p {
